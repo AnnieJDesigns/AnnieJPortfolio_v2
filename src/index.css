@@ -1,0 +1,174 @@
+
+
+/* universal */
+
+h1 {
+  font-size: 32px;
+  margin: 1px;
+}
+
+h2 {
+  font-size: 24px;
+  margin: 1px;
+}
+
+h3 {
+  font-size: 18.70px;
+  margin: 1px;
+}
+
+h4 {
+  font-size: 16px;
+  margin: 1px;
+}
+
+h5 {
+  font-size: 13.30px;
+  margin: 1px;
+}
+
+h6 {
+  font-size: 12.30px;
+  margin: 1px;
+}
+
+p {
+  margin: 1px;
+}
+
+body {
+  background-color: #F5EDDC;
+}
+
+/* homepage */
+
+
+#program {
+  display: flex;
+  justify-content: center;
+
+}
+
+#program-wrapper {
+  width: 100%;
+  height: 500px;
+  display: grid;
+  grid-gap: 24px;
+  grid-auto-flow: column;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+}
+
+#card-wrapper {
+  display: flex;
+  flex-direction: row;
+  z-index: -1;
+}
+
+#program {
+  width:  100%;
+  display: flex;
+  flex-direction: row;
+  /* border-style: dotted; */
+  align-items: center;
+}
+
+.carousel-button {
+  width: 30px;
+  height: 30px;
+  border-radius: 60%;
+  z-index: 1;
+  border: none;
+  background-color: #F5EDDC;
+  visibility: hidden;
+}
+
+.carousel-button:hover {
+  border: solid black;
+  transition: 0.1s;
+  background-color: black;
+}
+
+.carousel-button:hover h4 {
+  color: white;
+}
+
+#left-carousel-button h4 {
+  color: #F5EDDC;
+}
+#left-carousel-button:hover {
+  border: solid black;
+  transition: 0.1s;
+  background-color: black;
+}
+
+#left-carousel-button:hover h4 {
+  color: white;
+}
+
+.program-header {
+  padding: 20px 20px 40px 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: auto;
+}
+
+.carousel-button-group {
+  display: flex;
+  flex-direction: row;
+}
+
+.quote {
+  padding: 20px 20px 40px 0px;
+  border-bottom-style: dotted;
+}
+
+.dotted-line {
+  padding: 20px 20px 40px 0px;
+  border-bottom-style: dotted;
+  display: flex;
+  width: 100%;
+}
+
+/* ScrollBar */
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #F5EDDC; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #F5EDDC;
+  border: solid black;
+  border-radius: 20px; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: black; 
+}
+
+/* Media Queries */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  #program {
+    width: 100%;
+    display: flex;
+  }
+}
+
+.carousel-button {
+  visibility: visible;
+}
+
+
+
+

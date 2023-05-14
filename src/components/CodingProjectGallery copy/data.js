@@ -1,0 +1,52 @@
+export const allProjects = [
+    {
+        id: 1,
+        company: "SheCodes",
+        title: "Project One",
+        role: "designer",
+        description: "unde omnis iste natus etam rem inventore veritatis et quasi",
+        year: "2023",
+        image: "https://via.placeholder.com/300.jpg",
+        link: "url",
+    },
+    {
+        id: 2,
+        company: "SheCodes",
+        title: "Project One",
+        role: "designer",
+        description: "unde omnis iste natus etam rem inventore veritatis et quasi",
+        year: "2023",
+        image: "https://via.placeholder.com/300.jpg",
+        link: "url",
+    },
+    {
+        id: 3,
+        company: "SheCodes",
+        title: "Project One",
+        role: "designer",
+        description: "unde omnis iste natus etam rem inventore veritatis et quasi",
+        year: "2023",
+        image: "https://via.placeholder.com/300.jpg",
+        link: "url",
+    },
+    {
+        id: 4,
+        company: "SheCodes",
+        title: "Project One",
+        role: "designer",
+        description: "unde omnis iste natus etam rem inventore veritatis et quasi",
+        year: "2023",
+        image: "https://via.placeholder.com/300.jpg",
+        link: "url",
+    },
+]
+
+export const oneProject = {
+    id: 1,
+    company: "SheCodes",
+    title: "Project One",
+    description: "This is the first project",
+    year: "2023",
+    image: "https://via.placeholder.com/300.jpg",
+    link: "url",
+}
