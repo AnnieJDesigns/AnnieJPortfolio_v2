@@ -7,12 +7,12 @@ import PopUp from "../PopUp/PopUp";
 
 
 function scrollLeft() {
-    let element = document.getElementById("program-wrapper");
+    let element = document.getElementById("program-wrapper-graphic");
     element.scrollLeft += 150;
 }
 
 function scrollRight() {
-    let element = document.getElementById("program-wrapper");
+    let element = document.getElementById("program-wrapper-graphic");
     element.scrollLeft -= 150;
 }
 
@@ -32,7 +32,7 @@ function GraphicDesignProjectGallery() {
                     </div>
             </div>
             <div id="program">
-                    <div id="program-wrapper">
+                    <div id="program-wrapper-graphic">
                         <div id="program-inner">
                             <div id="card-wrapper">
                             {allProjects.map((projectData, key) => {
