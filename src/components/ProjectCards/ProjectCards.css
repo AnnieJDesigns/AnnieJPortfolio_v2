@@ -23,3 +23,35 @@
     object-fit: cover;
     border-radius: inherit;
 }
+
+.call-to-action-btn {
+    background: none!important;
+    border: none;
+    padding: 0!important;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.call-to-action-btn:hover {
+    color: white;
+
+}
+
+.pop-up-body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#pop-up-images {
+    width: 200px;
+    height: auto;
+    margin-bottom: 10px;
+    margin-top: 50px;
+}
+
+.popup-background {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

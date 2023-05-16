@@ -1,8 +1,11 @@
 import { Link } from "react-router-dom";
-import "./ProjectCards.css"
+import "./ProjectCards.css";
+import PopUp from "../PopUp/PopUp";
+import { useState } from "react";
 
 function ProjectCard(props) {
     const {projectData} = props;
+    const [buttonPopUp, setButtonPopUp] = useState(false);
     return (
         <div className = "project-card">
             <img id="display-image" src={projectData.image}/>
@@ -13,11 +16,24 @@ function ProjectCard(props) {
                     <p>{projectData.role}</p>
                     <p>{projectData.description}</p>
                         <div>
-                        <p>{projectData.link}</p>
+                            <button onClick={() => setButtonPopUp(true)} className="call-to-action-btn"><p>View {projectData.call_to_view}</p></button>
+                        </div>
+                        <div>
+                            <PopUp trigger={buttonPopUp} setTrigger={setButtonPopUp}>
+                                <div className = "pop-up-body">
+                                    <div className = "pop-up-header">
+                                        <h2>{projectData.title}</h2>
+                                    </div>
+                                    <img id="pop-up-images" src={projectData.image_detail1}/>
+                                    <img id="pop-up-images" src={projectData.image_detail2}/>
+                                    <img id="pop-up-images" src={projectData.image_detail3}/>
+                                </div>
+                            </PopUp>
                         </div>
                 </div>
-                
         </div>
+                
+
     );
 }
 
