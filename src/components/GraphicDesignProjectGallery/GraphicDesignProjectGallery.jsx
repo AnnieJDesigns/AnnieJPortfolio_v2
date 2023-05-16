@@ -2,8 +2,9 @@ import React from "react";
 import ProjectCard from "../ProjectCards/ProjectCards";
 import { allProjects } from "./data";
 import PopUp from "../PopUp/PopUp";
-import { useState } from "react";
-import PopUpLink from "../PopUpLink/PopUpLink";
+
+
+
 
 function scrollLeft() {
     let element = document.getElementById("program-wrapper");
@@ -18,7 +19,6 @@ function scrollRight() {
 
 function GraphicDesignProjectGallery() {
 
-    const [buttonPopUp, setButtonPopUp] = useState(false);
 
     return (
         <div>
@@ -39,11 +39,6 @@ function GraphicDesignProjectGallery() {
                                 return <ProjectCard key = {key} projectData={projectData} />;
                             })}
                             </div>
-                            <button onClick={() => setButtonPopUp(true)}>Open</button>
-                                <div>
-                                <PopUp trigger={buttonPopUp} setTrigger={setButtonPopUp}>
-                                </PopUp>
-                                </div>
                         </div>
                     </div>
             </div>

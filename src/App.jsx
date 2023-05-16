@@ -3,7 +3,7 @@ import{Outlet} from "react-router-dom";
 import HomePage from "./pages/HomePage";
 
 const HeaderLayout = () => (
-  <div>
+  <div classname = "body">
     <Outlet />
   </div>
 );
