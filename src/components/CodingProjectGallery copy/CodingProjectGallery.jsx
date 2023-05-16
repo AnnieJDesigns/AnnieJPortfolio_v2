@@ -20,10 +20,10 @@ function CodingProjectGallery() {
                 <div className="title">
                     <h2>DevProjects</h2>
                 </div>
-            </div>
-            <div className="carousel-button-group">
-            <button onClick={scrollRight} className="carousel-button" id="left-carousel-button"><h4>←</h4></button>
-            <button onClick={scrollLeft} className="carousel-button"><h4>→</h4></button>
+                <div className="carousel-button-group">
+                    <button onClick={scrollRight} className="carousel-button" id="left-carousel-button"><h4>←</h4></button>
+                    <button onClick={scrollLeft} className="carousel-button"><h4>→</h4></button>
+                </div>
             </div>
             <div id="program">
                     <div id="program-wrapper-dev">
