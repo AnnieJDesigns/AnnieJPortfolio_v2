@@ -79,7 +79,7 @@ body {
   width:  100%;
   display: flex;
   flex-direction: row;
-  /* border-style: dotted; */
+  border-style: dotted;
   align-items: center;
 }
 
@@ -103,14 +103,14 @@ body {
   color: white;
 }
 
-#left-carousel-button h4 {
+/* #left-carousel-button h4 {
   color: #F5EDDC;
 }
 #left-carousel-button:hover {
   border: solid black;
   transition: 0.1s;
   background-color: black;
-}
+} */
 
 #left-carousel-button:hover h4 {
   color: white;
