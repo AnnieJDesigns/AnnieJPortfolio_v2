@@ -5,23 +5,25 @@ import Header from "../components/Header/Header";
 function HomePage() {
     return (
 
-        <div>
-            <Header />
-            <div className ="quote">
-                <p>The greatest glory in living lies not in never falling, but in rising every time we fall. -Nelson Mandela</p>
-            </div>
-            <div>
-            <CodingProjectGallery />
-            </div>
-            <div>
-                <GraphicDesignProjectGallery />
-            </div>
-            <section>
-                <div className="title">
-                    <h2>Connect with me</h2>
+        <div className="html">
+                <Header />
+                <div className ="quote">
+                    <p>The greatest glory in living lies not in never falling, but in rising every time we fall. -Nelson Mandela</p>
                 </div>
-                <p>Linkedin</p>
-            </section>
+                <div>
+                    <CodingProjectGallery />
+                </div>
+                <div>
+                    <GraphicDesignProjectGallery />
+                </div>
+                <section>
+                    <div className="title">
+                        <h2>Connect with me</h2>
+                    </div>
+                    <a href="https://www.linkedin.com/in/annijix/" rel="noreferrer">
+                        <p>Linkedin</p>
+                    </a>
+                </section>
         </div>
         
     ) 
