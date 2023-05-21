@@ -1,5 +1,5 @@
 import React from "react";
-import ProjectCard from "../ProjectCards/ProjectCards";
+import ProjectCardsDevProject from "../ProjectCardDevProject/ProjectCardsDevProject";
 import { allProjects } from "./data";
 
 function scrollLeft() {
@@ -30,7 +30,7 @@ function CodingProjectGallery() {
                         <div id="program-inner">
                             <div id="card-wrapper">
                             {allProjects.map((projectData, key) => {
-                                return <ProjectCard key = {key} projectData={projectData} />;
+                                return <ProjectCardsDevProject key = {key} projectData={projectData} />;
                             })}
                             </div>
                         </div>

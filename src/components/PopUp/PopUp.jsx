@@ -7,7 +7,7 @@ function PopUp(props) {
         <div className='popup-background'>
             <div className='popup'>
                 <div className='popup-inner'>
-                    <button className="close-btn" onClick={() => props.setTrigger(false)}>close</button>
+                    <button className="call-to-action-btn" onClick={() => props.setTrigger(false)}><h4>←</h4></button>
                     {props.children}
                 </div>
             </div>
