@@ -24,7 +24,17 @@ function ProjectCard(props) {
                                     <div className = "pop-up-header">
                                         <h2>{projectData.title}</h2>
                                     </div>
+                                    <div>
+                                    <br></br>
+                                    <p>Brief: {projectData.brief}</p>
+                                    <br></br>
+                                    <p>Solution: {projectData.solution}</p>
+                                    </div>
+                                    <br></br>
+                                    <h2>{projectData.image_title_1}</h2>
                                     <img id="pop-up-images" src={projectData.image_detail1}/>
+                                    <br></br>
+                                    <h2>{projectData.image_title_2}</h2>
                                     <img id="pop-up-images" src={projectData.image_detail2}/>
                                     <img id="pop-up-images" src={projectData.image_detail3}/>
                                 </div>
