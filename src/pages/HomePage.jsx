@@ -17,6 +17,7 @@ function HomePage() {
                     <GraphicDesignProjectGallery />
                 </div>
                 <section>
+                    <br></br>
                     <div className="title">
                         <h2>Connect with me</h2>
                     </div>
