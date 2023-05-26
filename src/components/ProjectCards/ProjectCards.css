@@ -21,28 +21,59 @@
     height: 200px;
     display: block;
     object-fit: cover;
-    border-radius: inherit;
+    border-radius: 5px;
 }
 
-.call-to-action-btn {
-    background: none!important;
-    border: none;
-    padding: 0!important;
-    text-decoration: underline;
-    cursor: pointer;
-}
-
-.call-to-action-btn:hover {
-    color: white;
-
-}
+/* Pop up css */
 
 .pop-up-body {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+}
+
+.pop-up-header {
     display: flex;
     justify-content: center;
+}
+
+.pop-up-container {
+    display: flex;
     flex-direction: column;
+    justify-content: center;
+}
+
+.pop-up-inner {
     margin: auto;
-    padding: 10px;
+    padding: 30px;
+}
+
+.pop-up-inner-content {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.pop-up-prefix {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.pop-up-prefix-inner {
+    display: flex;
+    flex-direction: column;
+}
+
+.pop-up-prefix-CTA {
+    display: flex;
+    flex-direction: column;
+}
+
+.pop-up-inner-content h3 {
+    display:flex;
+    justify-content: center;
 }
 
 #pop-up-images {
@@ -56,4 +87,15 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .pop-up-body {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin: auto;
+        padding: 5px;
+    }
 }

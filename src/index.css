@@ -1,5 +1,5 @@
 
-
+@import url('https://fonts.googleapis.com/css2?family=Halant:wght@400;500;600&family=Instrument+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap');
 /* universal */
 
 .html {
@@ -11,16 +11,23 @@
 h1 {
   font-size: 32px;
   margin: 1px;
+  font-family: 'Halant', serif;
+  font-weight: 500;
 }
 
 h2 {
   font-size: 24px;
   margin: 1px;
+  font-family: 'Halant', serif;
+  font-weight: 500;
+  
 }
 
 h3 {
   font-size: 18.70px;
-  margin: 1px;
+  margin: 0px;
+  font-family: 'Halant', serif;
+  font-weight: 500;
 }
 
 h4 {
@@ -29,23 +36,32 @@ h4 {
 }
 
 h5 {
-  font-size: 13.30px;
+  font-size: 10px;
   margin: 1px;
+  font-weight: 500;
 }
 
 h6 {
-  font-size: 12.30px;
+  font-size: 10px;
   margin: 1px;
+  color: #585858;
 }
 
 p {
+  font-size: 10px;
   margin: 1px;
 }
 
 body {
-  background-color: #F5EDDC;
+  background-color: #FFF;
 }
 
+* {
+  font-family: 'Instrument Sans', sans-serif;
+  font-weight: 400;
+  color: #1e1e19;
+  line-height: 1.5;
+}
 /* homepage */
 
 
@@ -69,7 +85,6 @@ body {
   width:  100%;
   display: flex;
   flex-direction: row;
-  /* border-style: dotted; */
   align-items: center;
 }
 
@@ -93,17 +108,17 @@ body {
   height: 30px;
   border-radius: 60%;
   border: none;
-  background-color: #F5EDDC;
+  background-color: #FFF;
 }
 
-.carousel-button:hover {
-  border: solid black;
+/* .carousel-button:hover {
+  border: solid #FFF ;
   transition: 0.1s;
-  background-color: black;
-}
+  background-color: #FFF;
+} */
 
 .carousel-button:hover h4 {
-  color: white;
+  color: #b1df11 ;
 }
 
 /* #left-carousel-button h4 {
@@ -134,14 +149,45 @@ body {
 
 .quote {
   padding: 20px 20px 40px 0px;
-  border-bottom-style: dotted;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: black;
 }
 
 .dotted-line {
   padding: 20px 20px 40px 0px;
-  border-bottom-style: dotted;
   display: flex;
   width: 100%;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: black;
+}
+
+.gap {
+  padding-top: 7px;
+}
+
+/*Button*/
+.call-to-action-btn {
+  background: none!important;
+  border: none;
+  padding: 0!important;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.call-to-action-btn p {
+  font-weight: 400;
+}
+
+.call-to-action-btn:hover p {
+  color: #b1df11 ;
+  font-weight: 600;
+}
+
+.call-to-action-btn:hover {
+  color: white;
+
 }
 
 /* ScrollBar */
@@ -153,19 +199,20 @@ body {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #F5EDDC; 
+  background: #FFF; 
 }
  
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #F5EDDC;
+  background: #FFF;
   border: solid black;
-  border-radius: 20px; 
+  border-radius: 10px; 
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: black; 
+  background: #b1df11 ; 
+  border: #b1df11;
 } */
 
 /* Media Queries */
@@ -174,7 +221,6 @@ body {
 @media only screen and (max-width: 600px) {
   #program {
     width: 100%;
-    display: flex;
   }
 }
 

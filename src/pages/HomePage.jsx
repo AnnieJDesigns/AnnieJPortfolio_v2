@@ -21,7 +21,7 @@ function HomePage() {
                         <h2>Connect with me</h2>
                     </div>
                     <a href="https://www.linkedin.com/in/annijix/" rel="noreferrer">
-                        <p>Linkedin</p>
+                        <button className="call-to-action-btn"><p>Linkedin</p></button>
                     </a>
                 </section>
         </div>

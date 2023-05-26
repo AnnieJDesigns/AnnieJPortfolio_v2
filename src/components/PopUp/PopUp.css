@@ -1,4 +1,7 @@
 
+.popup-background{
+    background: pink;
+}
 .popup {
     position: fixed;
     left: 50%;
@@ -10,6 +13,8 @@
     width: 70%;
     height: 80%;
     background-color: #FFF;
+    border-radius: 5px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
 
     display: flex;
     justify-content: center;
@@ -28,6 +33,14 @@
 
 .popup-inner .close-btn {
     position: absolute;
-    top: 16px;
-    right: 16px;
+    padding: 30px;
+    width: 30px;
+    height: 30px;
+    border-radius: 60%;
+    border: none;
+    background-color: #FFF;
+}
+
+.close-btn:hover h4 {
+    color: #b1df11 ;
 }
