@@ -1,9 +1,12 @@
+
 .header {
     display: flex;
     flex-direction: row;
     padding-bottom: 20px;
     margin-bottom: 20px;
-    border-bottom-style: dotted;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: black;
 }
 
 .display-image {
@@ -18,7 +21,8 @@
     margin-right: 20px;
 }
 
-.gap {
-    height: 10px;
+.logo {
+    font-size: 20px;
+    font-family: 'Halant', serif;
+    font-weight: 500;
 }
-

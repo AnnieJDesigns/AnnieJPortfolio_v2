@@ -10,11 +10,13 @@ function ProjectCard(props) {
         <div className = "project-card">
             <img id="display-image" src={projectData.image}/>
                 <div className = "project-card-wrapper">
-                    <h6><b>{projectData.company}</b>, {projectData.year}</h6>
+                    <h6>{projectData.company}, {projectData.year}</h6>
                     <h3>{projectData.title}</h3>
-                    <h5>{projectData.type}</h5>
-                    <p>{projectData.role}</p>
+                    <h6>{projectData.type}</h6>
+                    <h6>{projectData.role}</h6>
+                    <div className="gap"></div>
                     <p>{projectData.description}</p>
+                    <div className="gap"></div>
                         <div>
                             <button onClick={() => setButtonPopUp(true)} className="call-to-action-btn"><p>View {projectData.call_to_view}</p></button>
                         </div>
@@ -24,19 +26,74 @@ function ProjectCard(props) {
                                     <div className = "pop-up-header">
                                         <h2>{projectData.title}</h2>
                                     </div>
+                                    <br></br>
+                                    <div className ="pop-up-prefix">
+                                        <div className ="pop-up-prefix-inner">
+                                            <h6>{projectData.company}, {projectData.year}</h6>
+                                            <h6>{projectData.type}</h6>
+                                        </div>
+                                        <div className ="pop-up-prefix-CTA">
+                                            <a href={projectData.viewing_link1} className="call-to-action-btn" rel="noreferrer"><p>{projectData.call_to_view_pop_up1}</p></a>
+                                            <a href={projectData.viewing_link2} className="call-to-action-btn" rel="noreferrer"><p>{projectData.call_to_view_pop_up2}</p></a>
+                                        </div>
+                                    </div>
+                                    <div className="gap"></div>
                                     <div>
-                                    <br></br>
-                                    <p>Brief: {projectData.brief}</p>
-                                    <br></br>
-                                    <p>Solution: {projectData.solution}</p>
+                                        <h5>Brief:</h5><p>{projectData.brief}</p>
+                                        <div className="gap"></div>
+                                        <h5>Solution:</h5><p>{projectData.solution}</p>
                                     </div>
                                     <br></br>
-                                    <h2>{projectData.image_title_1}</h2>
-                                    <img id="pop-up-images" src={projectData.image_detail1}/>
-                                    <br></br>
-                                    <h2>{projectData.image_title_2}</h2>
-                                    <img id="pop-up-images" src={projectData.image_detail2}/>
-                                    <img id="pop-up-images" src={projectData.image_detail3}/>
+                                    <div className="pop-up-wrapper">
+                                            <div className="pop-up-container">
+                                                    <div className="pop-up-inner">
+                                                        <div className="pop-up-inner-content">
+                                                            <h3>{projectData.image_title_1}</h3>
+                                                            <img id="pop-up-images" src={projectData.image_detail1a}/>
+                                                        </div>
+                                                    </div>
+                                                <br></br>
+                                                    <div className="pop-up-inner">
+                                                        <div className="pop-up-inner-content">
+                                                            <h3>{projectData.image_title_2}</h3>
+                                                            <img id="pop-up-images" src={projectData.image_detail2a}/>
+                                                            <img id="pop-up-images" src={projectData.image_detail2b}/>
+                                                        </div>
+                                                    </div>
+                                                    <br></br>
+                                                    <div className="pop-up-inner">
+                                                        <div className="pop-up-inner-content">
+                                                            <h3>{projectData.image_title_3}</h3>
+                                                            <img id="pop-up-images" src={projectData.image_detail3a}/>
+                                                            <img id="pop-up-images" src={projectData.image_detail3b}/>
+                                                        </div>
+                                                    </div>
+                                                    <br></br>
+                                                    <div className="pop-up-inner">
+                                                        <div className="pop-up-inner-content">
+                                                            <h3>{projectData.image_title_4}</h3>
+                                                            <img id="pop-up-images" src={projectData.image_detail4a}/>
+                                                            <img id="pop-up-images" src={projectData.image_detail4b}/>
+                                                        </div>
+                                                    </div>
+                                                    <br></br>
+                                                    <div className="pop-up-inner">
+                                                        <div className="pop-up-inner-content">
+                                                            <h3>{projectData.image_title_5}</h3>
+                                                            <img id="pop-up-images" src={projectData.image_detail5a}/>
+                                                            <img id="pop-up-images" src={projectData.image_detail5b}/>
+                                                        </div>
+                                                    </div>
+                                                    <br></br>
+                                                    <div className="pop-up-inner">
+                                                        <div className="pop-up-inner-content">
+                                                            <h3>{projectData.image_title_6}</h3>
+                                                            <img id="pop-up-images" src={projectData.image_detail6a}/>
+                                                            <img id="pop-up-images" src={projectData.image_detail6b}/>
+                                                        </div>
+                                                    </div>
+                                            </div>
+                                    </div>
                                 </div>
                             </PopUp>
                         </div>

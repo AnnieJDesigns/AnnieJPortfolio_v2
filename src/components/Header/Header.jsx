@@ -8,10 +8,9 @@ function Header () {
                 <img className= "display-image" src="https://via.placeholder.com/100x100"/>
             </div>
                 <div className="about-me">
-                    <h4>Annie Jiang</h4>
-                    <h5>Software, Designer, Dog-mum</h5>
-                    <div className="gap"></div>
-                    <h5>On a mission</h5>
+                    <h3>Annie Jiang</h3>
+                    <h6>Software, Designer, Dog-mum</h6>
+                    <h6>On a mission</h6>
                 </div>
             </div>
         </div>
