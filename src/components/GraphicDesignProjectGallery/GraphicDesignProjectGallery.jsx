@@ -13,7 +13,7 @@ function scrollLeft() {
 
 function scrollRight() {
     let element = document.getElementById("program-wrapper-graphic");
-    element.scrollLeft -= 150;
+    element.scrollLeft -= 50;
 }
 
 
