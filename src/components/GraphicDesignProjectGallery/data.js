@@ -91,8 +91,8 @@ export const allProjects = [
         year: "2021",
         image: "https://i.postimg.cc/v8086Vzx/Portfolio-ADA-enewsletter2.jpg",
         call_to_view: "EDM",
-        brief:"Redesign the existing monthly Electronic Direct Mail (EDM) template to create a more versatile and targeted EDM template that delivers relevant content to members, promotes business offerings and ADA’s value, and enhances engagement. The template should highlight different aspects of the business, such as the shop and CPD professional learning resources, and be more personalised using dynamic fields, and work with the new EDM strategy implemented by the digital marketing manager.",
-        solution: "Worked with stakeholders and the digital marketing manager, to create an EDM that has different sections for shop and CPD professional learning resources, and be more personalised using dynamic fields, as well as documentation to include consult different stakeholders for each monthy EDM. Within a year, this resulted in an average increase of 30% open rates.",
+        brief:"Redesign the existing monthly Electronic Direct Mail (EDM) newsletter template to be more versatile and targeted. The new template, combined with a new edm process and strategy delivers relevant content to members, promotes business offerings and ADA’s value, and enhances engagement. The template highlights different aspects of the business, such as the shop and CPD professional learning resources, and is more personalised using dynamic fields.",
+        solution: "Working with internal stakeholders and the digital marketing manager, we created documentation to consult different stakeholders for each monthy EDM and and created a strategy to deliver targeted content to different member segments. Within a year, this resulted in an average increase of 20% open rates.",
         image_detail1a: "https://i.postimg.cc/XNwsLt8V/edm-mockup2.jpg",
     },
         
