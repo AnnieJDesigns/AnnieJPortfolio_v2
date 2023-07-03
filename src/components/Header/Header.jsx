@@ -5,7 +5,7 @@ function Header () {
         <div>
             <div className="header">
             <div className="image">
-                <img className= "display-image" src="https://via.placeholder.com/100x100"/>
+                <img className= "display-image" src="https://i.postimg.cc/VNn2WY2q/Annie-display-image.png"/>
             </div>
                 <div className="about-me">
                     <h3>Annie Jiang</h3>
