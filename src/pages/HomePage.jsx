@@ -8,7 +8,7 @@ function HomePage() {
         <div className="html">
                 <Header />
                 <div className ="quote">
-                    <p>The greatest glory in living lies not in never falling, but in rising every time we fall. -Nelson Mandela</p>
+                    <p>It does not matter how slowly you go as long as you do not stop. -Confucius</p>
                 </div>
                 <div>
                     <CodingProjectGallery />

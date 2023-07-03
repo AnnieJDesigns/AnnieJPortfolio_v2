@@ -18,7 +18,7 @@ function ProjectCard(props) {
                     <p>{projectData.description}</p>
                     <div className="gap"></div>
                         <div>
-                            <button onClick={() => setButtonPopUp(true)} className="call-to-action-btn"><p>View {projectData.call_to_view}</p></button>
+                            <button onClick={() => setButtonPopUp(true)} className="call-to-action-btn"><p>View more</p></button>
                         </div>
                         <div>
                             <PopUp trigger={buttonPopUp} setTrigger={setButtonPopUp}>
