@@ -11,7 +11,7 @@ export const allProjects = [
         image: "https://i.postimg.cc/CL2Q8PDn/Congress-ADA-mockup2.jpg",
         call_to_view: "assets",
         brief: "Create event signage, promotional assets and a website for a dental conference that embraces a unique and fun pop-art theme. The client wants the conference to stand out from traditional dental events, creating an atmosphere that is engaging, vibrant, and unlike any other dental conference. The pop-art theme will play a crucial role in setting the tone and enhancing the overall experience for attendees.",
-        solution: "Created a vibrant pop-art hero image which served as the cornerstone for developing various assets throughout the project. Experiment with variations of the hero image, incorporating different pop-art styles and elements. This approach will helped create assets such as event signage, website and marketing collateral that showcase a variety of pop-art inspirations while staying consistent with the overall theme.",
+        solution: "Created a vibrant pop-art hero image which served as the cornerstone for developing various assets throughout the project. Experiment with variations of the hero image, incorporating different pop-art styles and elements. This approach will helped create assets such as event signage, website and marketing collateral that showcase a variety of pop-art inspirations while staying consistent with the overall theme. This resulted in great feedback from delegates and in more an $1 million in revenue raised.",
         image_title_1: "EDM",
         image_detail1a: "https://i.postimg.cc/yYBV5kGg/email-mockup-detail-image.jpg",
         image_title_2: "Website",
